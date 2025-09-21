@@ -2,8 +2,8 @@ import Link from "next/link";
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 import Image from "next/image";
-import MainHeaderBackground from "@/components/main-header-background";
-import NavLink from "@/components/nav-link";
+import MainHeaderBackground from "@/components/main-header/main-header-background";
+import NavLink from "@/components/main-header/nav-link";
 
 export default function MainHeader() {
   return (
